@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+    <h2>Preencha o formulário:</h2><br>
+    <ul>
+        <li>Nome:
+            <input type="text" name="nome" id="nome"></li><br>
+        <li>Idade:
+            <input type="number" name="idade" id="idade" max="150"></li><br>
+        <li>Salário:
+            <abbr title="Se não tiver trabalhando, digite o do seu pareciro(a) ou pais">
+                <input type="number" name="salario" id="salario">
+        </li>
+        <p id="mensS"></p>
+        </abbr>
+
+        <li>Sexo:
+            <input type="radio" name="sexo" id="m">
+            <label for="m">Masculino</label>
+            <input type="radio" name="sexo" id="f">
+            <label for="f">Feminino</label>
+        </li>
+
+        <br>
+
+        <li> Estado Civil:
+            <ol>
+
+                <br>
+                <li>
+                    <input type="radio" name="civil" id="s">
+                    <label for="s">Solteiro(a)</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="civil" id="c">
+                    <label for="c">Casado(a)</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="civil" id="d">
+                    <label for="d">Divorciado(a)</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="civil" id="v">
+                    <label for="v">Viúvo(a)</label>
+                </li>
+
+            </ol>
+
+        </li>
+
+    </ul>
+    <input type="button" value="Validar" onclick="ir()"><br><br>
+    <div id="mens"></div>
+     <footer>
+        <p id="mensagemfooter"></p> 
+     </footer>
+    <script src="Quest.js"></script>
+
+</body>
+
+</html>
