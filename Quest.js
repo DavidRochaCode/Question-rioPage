@@ -17,7 +17,7 @@ function ir() {
     mensagem.style.textAlign = 'center'
     menssalario.innerHTML = ''
     menssalario.style.color = 'red'
-    mensfooter.innerHTML+= ''
+    mensfooter.innerHTML = ''
     mensfooter.style.textAlign='center'
 
      //sexo
